@@ -304,3 +304,57 @@ h3, .card-text{
 .h3-sponsored{
     margin-bottom: 0.5rem;
 }
+/*----------Activités----------*/
+#activities{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+#h2-activities{
+    margin-bottom: 2rem;
+}
+#activities-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.card-activities-shape{
+    width: 23vw;
+    max-width: 300px;
+}
+.card-activities{
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+.activites-img{
+    height: 389px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.activity-place{
+    padding: 1.25rem 1rem;
+}
+.activity-place-name{
+    margin: 0;
+}
+/*----------Footer----------*/
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+    height: 25vh;
+}
+.nav-footer{
+    margin: 3rem 8rem 0 3rem;
+}
+.footer-menu{
+    margin-top: 1rem;
+}
+.footer-link{
+    margin-bottom: 0.8rem;
+}
