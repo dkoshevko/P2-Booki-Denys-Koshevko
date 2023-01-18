@@ -358,3 +358,63 @@ h3, .card-text{
 .footer-link{
     margin-bottom: 0.8rem;
 }
+/*----------Tablette----------*/
+@media only screen and (max-width: 992px) {
+    h1{
+        margin-bottom: 0.5rem;
+    }
+    #filter-bar{
+        width: 100%;
+    }
+    #filter-text{
+        margin-right: 1rem;
+    }
+    #filter-btn-container{
+        gap: 0.5rem;
+    }
+    .filter-btn{
+        padding: 0 0.5rem;
+    }
+    #offers{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    #offers-main{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .card{
+        width: 25vw;
+    }
+    #offers-sponsored{
+        width: 100%;
+    }
+    #text-sponsored{
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+    #offers-sponsored-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+    .card-sponsored{
+        width: 28vw;
+    }
+    .card-sponsored-img{
+        width: 10vw;
+    }
+    .h3-sponsored{
+        font-size: 0.9em;
+    }
+    .card-sponsored-text{
+        font-size: 0.8em;
+    }
+    .activites-img{
+        height: 211px;
+    }
+    .nav-footer{
+        margin: 3rem 5rem 0 4rem;
+    }
+}
