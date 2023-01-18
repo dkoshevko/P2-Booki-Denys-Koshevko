@@ -176,3 +176,131 @@ a{
     font-size: 1em;
     margin-left: 11px;
 }
+/*----------Main----------*/
+#offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 3.5rem;
+}
+.offers-all{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#offers-main{
+    width: 67%;
+}
+#h2-main{
+    margin: 2rem;
+    margin-bottom: 0;
+}
+.show-more{
+    margin: 2rem;
+    margin-top: 0;
+}
+#offers-main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2rem;
+    gap: 2rem 0;
+}
+.card{
+    width: 18vw;
+    max-width: 250px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+.card-img{
+    height: 114px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.card-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.1em 1rem 0.7rem 1rem;
+}
+.card-descrition{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+h3, .card-text{
+    margin-bottom: 0.6rem;
+}
+.star-rating{
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+}
+.fa-star{
+    font-size: 12px;
+    color: #F2F2F2;
+}
+.checked{
+    color: #0065FC;
+}
+/*----------Aside----------*/
+#offers-sponsored{
+    width: 30%;
+}
+#text-sponsored{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+#h2-sponsored{
+    margin: 0;
+}
+.fa-chart-line{
+    font-size: 18px;
+}
+#offers-sponsored-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 2rem;
+}
+.card-sponsored{
+    width: 23vw;
+    max-width: 340px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+.card-sponsored-img{
+    width: 8vw;
+    max-width: 127px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+.card-sponsored-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.h3-sponsored{
+    margin-bottom: 0.5rem;
+}
